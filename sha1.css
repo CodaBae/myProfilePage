@@ -1,0 +1,131 @@
+body {
+    font-family: Lora;
+    background: linear-gradient(rgba(37, 37, 25, 0.65), rgba(48, 43, 24, 0.65)), url(bg.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Raleway
+}
+
+p {
+    line-height: 1.75
+}
+
+
+.site-heading {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    text-transform: uppercase;
+    line-height: 1;
+    font-family: Raleway
+}
+
+.site-heading .site-heading-upper {
+    display: block;
+    font-size: 2rem;
+    font-weight: 800
+}
+
+.site-heading .site-heading-lower {
+    font-size: 5rem;
+    font-weight: 100;
+    line-height: 4rem
+}
+
+
+.section-heading {
+    text-transform: uppercase
+}
+
+.section-heading .section-heading-upper {
+    display: block;
+    font-size: 1rem;
+    font-weight: 800
+}
+
+.section-heading .section-heading-lower {
+    display: block;
+    font-size: 3rem;
+    font-weight: 100
+}
+
+.bg-faded {
+    background-color: rgba(255, 255, 255, .85)
+}
+
+.btn-xl {
+    font-weight: 700;
+    font-size: .8rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem
+}
+
+.intro {
+    position: relative
+}
+
+@media (min-width:992px) {
+    .intro .intro-img {
+        width: 75%;
+        float: right;
+        margin-bottom: 11% !important;
+    }
+    .intro .intro-text {
+        left: 0;
+        width: 60%;
+        margin-top: 3rem;
+        position: absolute
+    }
+    .intro .intro-text .intro-button {
+        width: 100%;
+        left: 0;
+        position: absolute;
+        bottom: -2rem
+    }
+}
+
+    .intro .intro-text {
+        width: 45%
+    }
+
+
+.footer {
+    background-color: rgba(7, 7, 1, 0.65);
+    color: white;
+}
+
+.text-primary {
+    color:  #f1e317 !important
+}
+
+/* .bg-primary {
+    background-color: #e6a756 !important
+} */
+
+
+
+.btn-primary {
+    background-color:  #f1e317;
+    border-color:  #f1e317
+}
+
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:hover {
+    background-color:  #f1e317;
+    border-color: #f1e317;
+}
+
+.font-weight-light {
+    font-weight: 100 !important
+}
